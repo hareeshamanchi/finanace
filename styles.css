@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.dashboard {
+    margin-bottom: 20px;
+}
+
+.balance {
+    font-size: 1.5em;
+    color: #28a745;
+    transition: color 0.3s;
+}
+
+.transaction-form {
+    margin-bottom: 20px;
+}
+
+.transaction-form input, 
+.transaction-form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.transaction-form input:focus, 
+.transaction-form select:focus {
+    border-color: #28a745;
+}
+
+.transaction-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.transaction-form button:hover {
+    background-color: #218838;
+}
+
+.feedback {
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.transaction-list {
+    margin-top: 20px;
+}
+
+.transaction-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.transaction-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.transaction-list button {
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.transaction-list button:hover {
+    background-color: #c82333;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
